@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ConteItemsCarrusel {
+    border: 5px solid black;
+    height: 200px;
+    overflow: hidden;
+}
+
+.itemCarrusel {
+    border: 1px solid black;
+    height: 100px;
+    position: relative;
+}
+
+.tarjetaCarrusel {
+    background-color: rgba(0, 255, 255, 0.459);
+    height: 100%;
+}
+
+.flechasCarrusel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20%;
+}
+
+#tarjetaCarrusel1 {
+    background-color: rgb(129, 62, 191);
+}
+
+#tarjetaCarrusel2 {
+    background-color: rgb(83, 122, 169);
+}
+
+#tarjetaCarrusel3 {
+    background-color: rgb(111, 196, 32);
+}
